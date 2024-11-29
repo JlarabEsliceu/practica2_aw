@@ -12,6 +12,10 @@ body{
     margin-left: 70px;
 }
 
+.nav-link:hover{
+    color: #000000;
+}
+
 .title{
     font-size: 28px;
 }
@@ -32,11 +36,9 @@ nav{
     margin-top: 100px;
 }
 
-.nav-link:hover{
-    color:#FFFF;
-}
 
-nav a.active{
+
+.nav-link.active{
     background-color: #FF5480;
     color: #FFFFFF;
     border-radius: 15px;
