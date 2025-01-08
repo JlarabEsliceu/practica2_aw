@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --pink: #FF5480;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -10,6 +15,11 @@ body{
     color: #000000  ;
     font-weight: 600;
     margin-left: 70px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .nav-link:hover{
@@ -41,10 +51,14 @@ nav{
     margin-top: 100px;
 }
 
+.container-fluid h4{
+    font-weight: 700;
+}
+
 
 
 .nav-link.active{
-    background-color: #FF5480;
+    background-color: var(--pink);
     color: #FFFFFF;
     border-radius: 15px;
 }
@@ -55,7 +69,7 @@ nav{
     height: 484px;
     display: flex;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Open', sans-serif;
   }
 
   .background-image {
@@ -105,7 +119,7 @@ nav{
 .reading-lists a{
     font-size: 16px;
     text-decoration: none;
-    color: #FF5480;
+    color: var(--pink);
 }
 
 .reading-lists h2{
@@ -114,4 +128,68 @@ nav{
 
 .targetes{
     color: #111210;
+    justify-content: space-between;
+}
+
+.targetes img{
+    width: 197px;
+    height: 225px;
+}
+
+.targetes p{
+    font-size: 24px;
+}
+
+.drag-right img{
+    width: 32px;
+    height: 32px;
+}
+
+.drag-right{
+    align-items: center;
+    display: flex;
+}
+
+/*Popular*/
+
+
+.popular-image{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para ajustar la imagen */
+    z-index: 1;
+}
+
+.hero-section-popular{
+    position: relative;
+    width: 773px;
+    height: 484px;
+    display: flex;
+    color: white;
+    font-family: 'Open', sans-serif;
+}
+
+.content-popular{
+    width: 668px;
+    height: 236px;
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    z-index: 3; /* Se asegura que esté sobre la imagen y el overlay */
+    padding: 20px;
+
+}
+
+.content-popular h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.popular{
+    margin-top: 100px;
 }
