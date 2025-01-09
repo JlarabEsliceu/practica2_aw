@@ -8,6 +8,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     border-color: #D8D8D8;
+    background-color: #F9F9FB;
 }
 
 .nav-link{
@@ -15,6 +16,7 @@ body{
     color: #000000  ;
     font-weight: 600;
     margin-left: 70px;
+    
 }
 
 h2{
@@ -192,4 +194,29 @@ nav{
 
 .popular{
     margin-top: 100px;
+}
+
+/*Cards*/
+
+.card-content h3{
+font-size: 16px;
+}
+
+.card-content p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/*Random*/
+
+h5 {
+    font-weight: 400;
+}
+h5 span{
+    color: #000000;
 }
