@@ -2,6 +2,7 @@
 
 :root{
     --pink: #FF5480;
+    --gray: #9B9B9B;
 }
 
 body{
@@ -192,7 +193,7 @@ nav{
     line-height: 46px;
 }
 
-.popular{
+.margin-content{
     margin-top: 100px;
 }
 
@@ -212,11 +213,31 @@ font-size: 16px;
     border-radius: 10px;
 }
 
+.card-body{
+    margin-right: 100px;
+}
+
+.card-body h3{
+    font-weight: 600;
+}
+
 /*Random*/
 
 h5 {
     font-weight: 400;
 }
 h5 span{
-    color: #000000;
+    color: var(--gray);
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+/*Footer*/
+
+footer{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+}
+
+
