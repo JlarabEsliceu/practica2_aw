@@ -235,8 +235,8 @@ h5 span{
 /*Footer*/
 
 footer {
-    background-color: #fff; /* Fondo del footer */
-    color: #fff; /* Texto blanco */
+    background-color: #fff; 
+    color: #fff;
     text-align: center;
     padding: 20px 0;
     position: relative;
@@ -255,24 +255,14 @@ footer {
   .footer-logo {
     font-family: 'Cursive', serif;
     font-size: 18px;
-    color: #fff;
+    color: #FFFFFF;
   }
 
   .footer-rights {
     font-size: 12px;
-    color: #aaa;
+    color: var(--gray);
   }
 
-  .social-icons {
-    display: flex;
-    gap: 10px;
-  }
 
-  .social-icons a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    transition: color 0.3s;
-  }
 
 
