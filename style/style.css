@@ -264,5 +264,13 @@ footer {
   }
 
 
+/*New.html*/
+header{
+    background-color: #FFFFFF;
 
+}
 
+header h2{
+    font-size: 36px;
+    font-weight: 700;
+}
